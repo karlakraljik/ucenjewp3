@@ -6,7 +6,6 @@
 --create table smjerovi(
 --sifra int,
 --naziv varchar(50),
---trajanje int,
 --cijena decimal(18,2),
 --vaucer bit
 --);
@@ -36,6 +35,7 @@
 --oib char(11),
 --iban varchar(50)
 --);
+evo ovo
 create table clanovi(
 grupa int,
 polaznik int
