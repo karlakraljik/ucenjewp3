@@ -1,2 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿
+string ime;
+Console.WriteLine("Unesi ime: ");
+
+ime = Console.ReadLine();
+
+Console.WriteLine(ime);
+
