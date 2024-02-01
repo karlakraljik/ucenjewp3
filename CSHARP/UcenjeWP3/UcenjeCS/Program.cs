@@ -1,8 +1,5 @@
-﻿
-string ime;
-Console.WriteLine("Unesi ime: ");
+﻿using UcenjeCS;
 
-ime = Console.ReadLine();
-
-Console.WriteLine(ime);
+//E01UlazIzlaz.Izvedi();
+E02VarijableTipovipodatakaOperatori.izvedi();
 
