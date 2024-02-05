@@ -12,7 +12,7 @@ namespace UcenjeCS
         public static void Izvedi()
         {
             //program od korisnika unosi cijeli broj
-            //ako je uneseni broj prazan ispisuje "Super"
+            //ako je uneseni broj paran ispisuje "Super"
             //inače ispisuje Ok
 
             Console.Write("Unesi cijeli broj");

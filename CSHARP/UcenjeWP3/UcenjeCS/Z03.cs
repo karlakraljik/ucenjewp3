@@ -14,31 +14,21 @@ namespace UcenjeCS
             //program unosi tri cijela broja
             //program ispisuje najmanji
 
+            int a = 3, b = 6, c = 8;
+            if (a < b && a < c)
             {
-                Console.WriteLine("Unesi prvi brpj");
+                Console.WriteLine(a);
             }
-            int broj2 = int.Parse(Console.ReadLine());
+            if (b<a && b < c) 
             {
-                Console.WriteLine("Unesi drugi broj");
-            }
-                int broj4 = int.Parse(Console.ReadLine());
+                Console.WriteLine(b);
+            }else
             {
-                Console.WriteLine("Unesi treci broj");
+                Console.WriteLine(c);
             }
-                int broj7 = int.Parse(Console.ReadLine());
+         
 
-            if (broj2 < broj4 && broj2 < broj7)
-            {
-                Console.WriteLine(broj2);
-            }else if(broj4<broj2 && broj2 < broj7)
-            {
-                Console.WriteLine(broj4);
-            }
-            else
-            {
-                Console.WriteLine(broj7);
-            }
-            
+           
 
                 
         }

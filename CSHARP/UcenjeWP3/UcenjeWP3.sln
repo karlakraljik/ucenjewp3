@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UcenjeCS", "UcenjeCS\UcenjeCS.csproj", "{F8E4EA90-3C7F-4D89-9D29-C635D665B121}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UcenjeCS", "UcenjeCS\UcenjeCS.csproj", "{F8E4EA90-3C7F-4D89-9D29-C635D665B121}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi", "WebApi\WebApi.csproj", "{9A78AA46-4A0A-4BC7-8EAA-B315B69BFC09}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{F8E4EA90-3C7F-4D89-9D29-C635D665B121}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8E4EA90-3C7F-4D89-9D29-C635D665B121}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8E4EA90-3C7F-4D89-9D29-C635D665B121}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A78AA46-4A0A-4BC7-8EAA-B315B69BFC09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A78AA46-4A0A-4BC7-8EAA-B315B69BFC09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A78AA46-4A0A-4BC7-8EAA-B315B69BFC09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A78AA46-4A0A-4BC7-8EAA-B315B69BFC09}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
