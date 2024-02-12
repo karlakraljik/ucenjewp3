@@ -82,8 +82,57 @@ namespace UcenjeCS
             // DZ formatirati na ovaj nacin
 
 
+            //petlja se moze preskoociti
+
+            for(int i=0; i<10; i++)
+            {
+                if (i == 3)
+                {
+                    continue;
+                }
+                {
+                    Console.WriteLine(i);
+                }
+                
+            }
+
+            for(int i=0; i<10; i++)
+            {
+                if (i == 3) 
+                {
+                    break;
+                }
+               
+                    Console.WriteLine(i);
+                }
+
+                for (int i = 0; 1 < 10; i++)
+                {
+                    for(int j=0; j<10; j++)
+                    {
+                        goto labela;
+                    }
+                }
+                labela:
+                Console.WriteLine("nastavljamo nakon vanjske petlje");
+
+                for(; ; )
+            {
+                Console.WriteLine(new Random().NextInt64(1,100));
+                break;
+            }
+
+
+
+
+
+
+
+
+
+            }
 
 
         }
     }
-}
+

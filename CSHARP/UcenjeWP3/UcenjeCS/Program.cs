@@ -7,6 +7,11 @@
 
 //Z02.Izvedi();
 //Z03.Izvedi();
-//E05Nizovi.Izvedi();
 //E06orPetlja.Izvedi();
-Z04.Izvedi();
+//Z04.Izvedi();
+//Z05.Izvedi();
+//Z06.Izvedi();
+//Z07.Izvedi();
+//E07WhilePetlja.izvedi();
+//E08DoWhile.izvedi();
+E09Foreach.izvedi();
