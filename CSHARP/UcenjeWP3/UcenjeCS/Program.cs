@@ -14,4 +14,7 @@
 //Z07.Izvedi();
 //E07WhilePetlja.izvedi();
 //E08DoWhile.izvedi();
-E09Foreach.izvedi();
+//E09Foreach.izvedi();
+//E10Metode.Izvedi();
+//Z06.Izvedi();
+E07.Izvedi();

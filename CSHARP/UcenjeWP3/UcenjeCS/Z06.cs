@@ -10,27 +10,10 @@ namespace UcenjeCS
     {
         public static void Izvedi()
         {
-            int i, najmanji = int.MaxValue;
-            for(; ; )
-            {
-                Console.WriteLine("Unesi broj: ");
-                i=int.Parse(Console.ReadLine());
-                if (i == -1)
-                {
-                    break;
-                }
-                if(i<najmanji)
-                {
-                    najmanji = i;
-                }
-
-            }
-            Console.WriteLine(najmanji);
-
-
-
-
-
+            int pb = Pomocno.UcitajCijeliBoroj("Unesi prvi broj");
+            int db = Pomocno.UcitajCijeliBoroj("Unesi drugi broj");
+            Console.WriteLine(pb+db);
+            Console.WriteLine(Pomocno.UcitajString("unesi ime grada"));
         }
     }
 }
