@@ -12,16 +12,20 @@ namespace UcenjeCS
         {
             string ime = Pomocno.UcitajString("Unesi svoje ime");
             int visina = Pomocno.UcitajCijeliBoroj("Unesi svoju visinu u cm");
-            float tezina = Pomocno.UcitajdecimalniiBoroj("Unesi svoju tezinu u kgh");
+            float tezina = Pomocno.UcitajdecimalniiBoroj("Unesi svoju tezinu u kg");
 
             if(visina>170 && visina > 190)
             {
                 if (tezina < 90.5)
                 {
-                    Console.Write("ti, " + ime + " si zgodan/zgodna.");
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine($"Ti, {ime}, si zgodan/zgodna.");
+
+                    Console.ResetColor();
                 }
                
             }
+
 
 
         }
