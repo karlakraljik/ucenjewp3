@@ -17,4 +17,6 @@
 //E09Foreach.izvedi();
 //E10Metode.Izvedi();
 //Z06.Izvedi();
-E07.Izvedi();
+//E07.Izvedi();
+//E11Rekurzija.Izvedi();
+UcenjeCS.E12KlasaObjekt.Program.Izvedi();
