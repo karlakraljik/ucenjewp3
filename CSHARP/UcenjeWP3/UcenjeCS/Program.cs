@@ -1,5 +1,7 @@
 ﻿using UcenjeCS;
 
+
+new UcenjeCS.E13Nasljedivanje.Program(); 
 //E01UlazIzlaz.Izvedi();
 //E02VarijableTipovipodatakaOperatori.izvedi();
 
@@ -19,4 +21,7 @@
 //Z06.Izvedi();
 //E07.Izvedi();
 //E11Rekurzija.Izvedi();
-UcenjeCS.E12KlasaObjekt.Program.Izvedi();
+//UcenjeCS.E12KlasaObjekt.Program.Izvedi();
+
+//Z0LjubavniKalkulator.Izvedi();
+
