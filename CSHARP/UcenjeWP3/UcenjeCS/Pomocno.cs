@@ -83,6 +83,10 @@ namespace UcenjeCS
             }
         }
 
+        internal static int UcitajCijelibroj(string v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
 
