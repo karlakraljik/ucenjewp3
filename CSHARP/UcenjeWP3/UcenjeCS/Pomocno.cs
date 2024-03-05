@@ -28,7 +28,7 @@ namespace UcenjeCS
             }
         }
 
-        public static int UcitajCijelibroj(string poruka, int min,int max)
+        public static int UcitajCijeliBroj(string poruka, int min,int max)
         {
             int i;
             while(true)
@@ -83,7 +83,7 @@ namespace UcenjeCS
             }
         }
 
-        internal static int UcitajCijelibroj(string v)
+        internal static int UcitajCijelibroj(string v1, int v2, int count)
         {
             throw new NotImplementedException();
         }

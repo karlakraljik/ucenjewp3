@@ -11,9 +11,6 @@ namespace UcenjeCS.E14VjezbanjeRadaSObjektima
 
         private List<Osoba> Osobe;
 
-        /// <summary>
-        /// Kreirati aplikaciju koja unosi, pregledava, mijenja i briše osobe
-        /// </summary>
         public Program()
         {
             // konstruktor služi da bi konstruirao potrebne zavisnosti
@@ -41,7 +38,7 @@ namespace UcenjeCS.E14VjezbanjeRadaSObjektima
 
         private void OdaberiOpciju()
         {
-            switch (Pomocno.UcitajCijeliBroj("Odaberi opciju"))
+            switch (Pomocno.UcitajCijeliBoroj("Odaberi opciju"))
             {
                 case 1:
                     PrikaziOsobe(true);
@@ -77,7 +74,7 @@ namespace UcenjeCS.E14VjezbanjeRadaSObjektima
             Console.WriteLine("*** Brisanje Osobe ***");
             Console.WriteLine("**********************");
             PrikaziOsobe();
-            int izbor = Pomocno.UcitajCijeliBroj("Izaberi broj osobe", 0, Osobe.Count);
+            int izbor = Pomocno.UcitajCijelibroj("Izaberi broj osobe", 0, Osobe.Count);
             if(izbor == 0)
             {
                 return;
@@ -93,7 +90,7 @@ namespace UcenjeCS.E14VjezbanjeRadaSObjektima
                 return;
             }
             PrikaziOsobe();
-            int izbor = Pomocno.UcitajCijeliBroj("Izaberi broj osobe (0 odustani)", 0, Osobe.Count);
+            int izbor = Pomocno.UcitajCijelibroj("Izaberi broj osobe (0 odustani)", 0, Osobe.Count);
             if(izbor == 0)
             {
                 return;
@@ -101,7 +98,7 @@ namespace UcenjeCS.E14VjezbanjeRadaSObjektima
             var o = Osobe[izbor - 1];
             o.Ime = Pomocno.UcitajString("Ucitaj ime [" + o.Ime + "]");
             o.Prezime = Pomocno.UcitajString("Ucitaj prezime");
-            o.Dob = Pomocno.UcitajCijeliBroj("Ucitaj Dob");
+            o.Dob = Pomocno.UcitajCijeliBoroj("Ucitaj Dob");
 
 
 
@@ -113,7 +110,7 @@ namespace UcenjeCS.E14VjezbanjeRadaSObjektima
             {
                 Ime = Pomocno.UcitajString("Unesi ime osobe"),
                 Prezime = Pomocno.UcitajString("Unesi prezime osobe"),
-                Dob = Pomocno.UcitajCijeliBroj("Unesi dob osobe: ")
+                Dob = Pomocno.UcitajCijeliBoroj("Unesi dob osobe: ")
             });
         }
 

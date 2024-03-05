@@ -23,5 +23,6 @@
 //E11Rekurzija.Izvedi();
 //UcenjeCS.E12KlasaObjekt.Program.Izvedi();
 
-Z0LjubavniKalkulator.Izvedi();
+//Z0LjubavniKalkulator.Izvedi();
 
+new UcenjeCS.E17KonzolnaAplikacija.Izbornik();
