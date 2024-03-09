@@ -25,4 +25,4 @@
 
 //Z0LjubavniKalkulator.Izvedi();
 
-new UcenjeCS.E17KonzolnaAplikacija.Izbornik();
+//new UcenjeCS.E17KonzolnaAplikacija.Izbornik();
